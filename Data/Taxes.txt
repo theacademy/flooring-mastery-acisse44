@@ -1,0 +1,6 @@
+StateAbbreviation::StateName::TaxRate
+TX::Texas::4.45
+CA::California::25.00
+WA::Washington::9.25
+KY::Kentucky::6.00
+NY::New York::44.25
