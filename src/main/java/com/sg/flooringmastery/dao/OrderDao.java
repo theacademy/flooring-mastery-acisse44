@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 public interface OrderDao {
-    // DS: private Map<LocalDate, Map<Integer, Order>> orders = new HashMap<>();
-
     List<Order> getOrdersByDate(LocalDate date) throws OrderNotFoundException;
     Order getOrder(LocalDate date, int orderNumber) throws OrderNotFoundException;
     int getNextOrderNumber();
